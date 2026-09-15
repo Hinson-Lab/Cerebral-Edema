@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ce-proteomics"
+version = "1.0.0"
+description = "Analysis code for: Protein Predictors of Worsening Cerebral Edema in Traumatic Brain Injury in Critically Ill Patients"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Hannah L. Radabaugh"}]
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "scikit-learn>=1.3",
+    "statsmodels>=0.14",
+    "xgboost>=1.7",
+    "shap>=0.44",
+    "matplotlib>=3.7",
+    "seaborn>=0.13",
+]
+
+[project.optional-dependencies]
+plots = ["adjustText>=1.0"]
+enrichment = ["requests>=2.31"]
+extras = ["gseapy>=1.1", "networkx>=3.0", "requests>=2.31"]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

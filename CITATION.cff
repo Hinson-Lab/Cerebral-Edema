@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated article."
+title: "Cerebral-Edema: analysis code for Protein Predictors of Worsening Cerebral Edema in Traumatic Brain Injury in Critically Ill Patients"
+version: 1.0.0
+date-released: 2026-09-14
+repository-code: "https://github.com/Hinson-Lab/Cerebral-Edema"
+license: MIT
+authors:
+  - family-names: Radabaugh
+    given-names: Hannah L.
+    affiliation: "Department of Neurological Surgery, University of California, San Francisco"
+preferred-citation:
+  type: article
+  title: "Protein Predictors of Worsening Cerebral Edema in Traumatic Brain Injury in Critically Ill Patients"
+  journal: "In Review"
+  year: 2026
+  authors:
+    - family-names: Radabaugh
+      given-names: Hannah L.
+    - family-names: Abdelhak
+      given-names: Ahmed
+    - family-names: Ning
+      given-names: Kiarra
+    - family-names: Jha
+      given-names: Ruchira M.
+    - family-names: Rowell
+      given-names: Susan E.
+    - family-names: Pollock
+      given-names: Jeffrey M.
+    - family-names: Mendoza
+      given-names: Esmeralda
+    - family-names: Rojas-Valencia
+      given-names: Luisa M.
+    - family-names: Ferguson
+      given-names: Adam R.
+    - family-names: Hinson
+      given-names: H. E.

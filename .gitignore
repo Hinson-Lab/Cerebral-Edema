@@ -1,0 +1,26 @@
+# Patient data and derived files are never committed
+data/raw/*
+data/processed/*
+data/synthetic_raw/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+results/*
+!results/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS
+.spyproject/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
